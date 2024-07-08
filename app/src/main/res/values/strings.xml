@@ -1,0 +1,942 @@
+<resources>
+    <string name="app_name">Turkish Word Treasure</string>
+    <string name="title">Turkish Word Treasure</string>
+
+    <string name="banner_home_footer">ca-app-pub-6135706534145691/8427338964</string>
+    <string name="inter_id">ca-app-pub-6135706534145691/7868935767</string>
+
+
+    <string name="quiz">Quiz</string>
+    <string name="about">About</string>
+
+    <string name="return_main">Main menu</string>
+    <string name="share">Share the app</string>
+    <string name="rate">Rate &amp; Review us</string>
+
+    <string name="explanation">Hello friend, \n\n
+                        Welcome to <b>Turkish Word Treasure</b>. This app is designed to be a resource for new Turkish learners.
+                        The current version (v 1.0) has 270 words including the Turkish alphabet, the most frequently used
+                        100 Turkish words and 9 mini word lists categorized by theme.
+                        \n\n
+                        Actually, this app is just the first step in our agenda about Turkish-teaching apps.
+                        We will update this app soon and welcome you with an awesome word list.
+                        Our goal is 3000 words for this application. Additionally, we are planning to publish an app for
+                        common expressions in daily Turkish and then a complete guide to learn Turkish.
+                        \n\n
+                        Please rate &amp; review us and share this app with the new Turkish learners.\n\n
+                        Enjoy!
+                        \n\n
+                        -------------
+                        \n\n
+                        <b>Yıldırım Apps</b>
+                        \n\n
+                        If you have any concern, question or advice, you can contact us with the e-mail address below. \n\n
+                        yildirimapps@gmail.com
+                        </string>
+    <string name="shareMessageText">Hi. This is a really cool app to learn Turkish words. \n
+    Would you like to try it? Get it here:\n http://play.google.com/store/apps/details?id=yildirimapps.turkishwordtreasure</string>
+
+
+    <string-array name="main_menu">
+        <item>Alphabet</item>
+        <item>Numbers</item>
+        <item>Questions</item>
+        <item>Colors</item>
+        <item>Days</item>
+        <item>Months</item>
+        <item>Pronouns</item>
+        <item>Body Parts</item>
+        <item>Electronics</item>
+        <item>Family</item>
+        <item>Top100</item>
+    </string-array>
+
+
+    <string-array name="alphabet">
+        <item>A a</item>
+        <item>B b</item>
+        <item>C c</item>
+        <item>Ç ç</item>
+        <item>D d</item>
+        <item>E e</item>
+        <item>F f</item>
+        <item>G g</item>
+        <item>Ğ ğ</item>
+        <item>H h</item>
+        <item>I ı</item>
+        <item>İ i</item>
+        <item>J j</item>
+        <item>K k</item>
+        <item>L l</item>
+        <item>M m</item>
+        <item>N n</item>
+        <item>O o</item>
+        <item>Ö ö</item>
+        <item>P p</item>
+        <item>R r</item>
+        <item>S s</item>
+        <item>Ş ş</item>
+        <item>T t</item>
+        <item>U u</item>
+        <item>Ü ü</item>
+        <item>V v</item>
+        <item>Y y</item>
+        <item>Z z</item>
+        <item>Alfabe</item>
+        <item>Harf</item>
+        <item>Kelime</item>
+        <item>Cümle</item>
+    </string-array>
+    <string-array name="group0">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Alphabet</item>
+        <item>Letter</item>
+        <item>Word</item>
+        <item>Sentence</item>
+    </string-array>
+    <string-array name="group0ext">
+        <item>As a in father</item>
+        <item>As b in boy</item>
+        <item>As j in joy</item>
+        <item>As ch in chair</item>
+        <item>As d in dog</item>
+        <item>As e in red</item>
+        <item>As f in far</item>
+        <item>As g in got</item>
+        <item>No English equivalent</item>
+        <item>As h in hot</item>
+        <item>As e in open</item>
+        <item>As ee in feet</item>
+        <item>As s in measure</item>
+        <item>As k in kit</item>
+        <item>As l in love</item>
+        <item>As m in man</item>
+        <item>As n in nice</item>
+        <item>As o in more</item>
+        <item>As e in learn, with lips rounded</item>
+        <item>As p in pin</item>
+        <item>As r in ring</item>
+        <item>As s in song</item>
+        <item>As sh in show</item>
+        <item>As t in tick</item>
+        <item>As oo in zoo</item>
+        <item>As e in new</item>
+        <item>As v in vat</item>
+        <item>As y in yes</item>
+        <item>As z in zigzag</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>20</item>
+        <item>29</item>
+        <item>30</item>
+        <item>36</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>105</item>
+        <item>127</item>
+        <item>200</item>
+        <item>262</item>
+        <item>600</item>
+        <item>999</item>
+        <item>1 000</item>
+        <item>1 000 000</item>
+        <item>1 023 708</item>
+    </string-array>
+    <string-array name="group1">
+        <item>Sıfır</item>
+        <item>Bir</item>
+        <item>İki</item>
+        <item>Üç</item>
+        <item>Dört</item>
+        <item>Beş</item>
+        <item>Altı</item>
+        <item>Yedi</item>
+        <item>Sekiz</item>
+        <item>Dokuz</item>
+        <item>On</item>
+        <item>On bir</item>
+        <item>On iki</item>
+        <item>Yirmi</item>
+        <item>Yirmi dokuz</item>
+        <item>Otuz</item>
+        <item>Otuz Altı</item>
+        <item>Kırk</item>
+        <item>Elli</item>
+        <item>Altmış</item>
+        <item>Yetmiş</item>
+        <item>Seksen</item>
+        <item>Doksan</item>
+        <item>Yüz</item>
+        <item>Yüz beş</item>
+        <item>null</item>
+        <item>İki yüz</item>
+        <item>null</item>
+        <item>Altı yüz</item>
+        <item>null</item>
+        <item>Bin</item>
+        <item>(Bir) Milyon</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="group1ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Yüz yirmi yedi</item>
+        <item>null</item>
+        <item>İki yüz altmış iki</item>
+        <item>null</item>
+        <item>Dokuz yüz doksan dokuz</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Bir milyon yirmi üç bin yedi yüz sekiz</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>Ne?</item>
+        <item>Nasıl?</item>
+        <item>Neden?</item>
+        <item>Niçin?</item>
+        <item>Niye?</item>
+        <item>Ne zaman?</item>
+        <item>Ne kadar?</item>
+        <item>Nerede?</item>
+        <item>Hangi?</item>
+        <item>Kim?</item>
+        <item>Kimin?</item>
+        <item>Kaçıncı?</item>
+        <item>Kaç para?</item>
+        <item>Kaç?</item>
+        <item>N\'aber?</item>
+    </string-array>
+    <string-array name="group2">
+        <item>What?</item>
+        <item>How?</item>
+        <item>Why?</item>
+        <item>Why?</item>
+        <item>Why?</item>
+        <item>When?</item>
+        <item>How much/many?</item>
+        <item>Where?</item>
+        <item>Which?</item>
+        <item>Who?</item>
+        <item>Whose?</item>
+        <item>No English equivalent</item>
+        <item>How much (money)?</item>
+        <item>How much/many?</item>
+        <item>What\'s up?</item>
+    </string-array>
+    <string-array name="group2ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>(abbr.) For what? = Ne için?  </item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Used to learn the order</item>
+        <item>null</item>
+        <item>null</item>
+        <item>(abbr.) What news? = Ne haber?</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>Beyaz</item>
+        <item>Siyah</item>
+        <item>Kırmızı</item>
+        <item>Mavi</item>
+        <item>Yeşil</item>
+        <item>Sarı</item>
+        <item>Turuncu</item>
+        <item>Pembe</item>
+        <item>Gri</item>
+        <item>Kahverengi</item>
+        <item>Mor</item>
+        <item>Renk</item>
+    </string-array>
+    <string-array name="group3">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Gray</item>
+        <item>Brown</item>
+        <item>Purple</item>
+        <item>Color</item>
+    </string-array>
+    <string-array name="group3ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>(literally) Coffee color = Kahve rengi</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+        <item>Sabah</item>
+        <item>Öğle</item>
+        <item>İkindi</item>
+        <item>Akşamüstü</item>
+        <item>Akşam</item>
+        <item>Gece</item>
+        <item>Gündüz</item>
+        <item>Gün</item>
+    </string-array>
+    <string-array name="group4">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Late afternoon</item>
+        <item>Before evening</item>
+        <item>Evening</item>
+        <item>Night</item>
+        <item>Day time</item>
+        <item>Day</item>
+    </string-array>
+    <string-array name="group4ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    
+    <string-array name="months">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+        <item>Ay</item>
+        <item>Yıl</item>
+        <item>Sene</item>
+    </string-array>
+    <string-array name="group5">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+        <item>Month</item>
+        <item>Year</item>
+        <item>Year</item>
+    </string-array>
+    <string-array name="group5ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="pronouns">
+        <item>Ben</item>
+        <item>Sen</item>
+        <item>O</item>
+        <item>Biz</item>
+        <item>Siz</item>
+        <item>Onlar</item>
+        <item>Kendi</item>
+        <item>Herkes</item>
+        <item>Kimse</item>
+    </string-array>
+    <string-array name="group6">
+        <item>I</item>
+        <item>You </item>
+        <item>He/She/It</item>
+        <item>We</item>
+        <item>You</item>
+        <item>They</item>
+        <item>Self</item>
+        <item>Everyone</item>
+        <item>Nobody</item>
+    </string-array>
+    <string-array name="group6ext">
+        <item>null</item>
+        <item>Singular</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Plural</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="bodyParts">
+        <item>El</item>
+        <item>Ayak</item>
+        <item>Parmak</item>
+        <item>Yüz</item>
+        <item>Göz</item>
+        <item>Burun</item>
+        <item>Ağız</item>
+        <item>Kulak</item>
+        <item>Kafa</item>
+        <item>Baş</item>
+        <item>Sırt</item>
+        <item>Göğüs</item>
+        <item>Vücut</item>
+        <item>Kol</item>
+        <item>Bacak</item>
+        <item>Omuz</item>
+        <item>Dil</item>
+    </string-array>
+    <string-array name="group7">
+        <item>Hand</item>
+        <item>Foot</item>
+        <item>Finger</item>
+        <item>Face</item>
+        <item>Eye</item>
+        <item>Nose</item>
+        <item>Mouth</item>
+        <item>Ear</item>
+        <item>Head</item>
+        <item>Head</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Body</item>
+        <item>Arm</item>
+        <item>Leg</item>
+        <item>Shoulder</item>
+        <item>Tongue</item>
+    </string-array>
+    <string-array name="group7ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    
+    <string-array name="electronics">
+        <item>Telefon</item>
+        <item>Bilgisayar</item>
+        <item>Saat</item>
+        <item>TV: Televizyon</item>
+        <item>Ekran</item>
+        <item>Klavye</item>
+        <item>Kulaklık</item>
+        <item>Hoparlör</item>
+        <item>Kamera</item>
+        <item>Fotoğraf makinesi</item>
+        <item>Yazıcı</item>
+        <item>Hesap makinesi</item>
+    </string-array>
+    <string-array name="group8">
+        <item>Phone</item>
+        <item>Computer</item>
+        <item>Watch</item>
+        <item>TV</item>
+        <item>Screen</item>
+        <item>Keyboard</item>
+        <item>Earphones</item>
+        <item>Speakers</item>
+        <item>Camera</item>
+        <item>Camera</item>
+        <item>Printer</item>
+        <item>Calculator</item>
+    </string-array>
+    <string-array name="group8ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>for video</item>
+        <item>for photo</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="family">
+        <item>Aile</item>
+        <item>Anne</item>
+        <item>Baba</item>
+        <item>Çocuk</item>
+        <item>Kardeş</item>
+        <item>Abi</item>
+        <item>Abla</item>
+        <item>Dede</item>
+        <item>Nine</item>
+    </string-array>
+    <string-array name="group9">
+        <item>Family</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Child</item>
+        <item>Sibling</item>
+        <item>Older brother</item>
+        <item>Older sister</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+    </string-array>
+    <string-array name="group9ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>brother or sister</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    
+    <string-array name="top100">
+        <item>Bir</item>
+        <item>Ve</item>
+        <item>Olmak</item>
+        <item>Bu</item>
+        <item>İçin</item>
+        <item>O</item>
+        <item>Ben</item>
+        <item>Demek</item>
+        <item>Çok</item>
+        <item>Yapmak</item>
+        <item>Ne</item>
+        <item>Gibi</item>
+        <item>Daha</item>
+        <item>Almak</item>
+        <item>Var</item>
+        <item>Kendi</item>
+        <item>Gelmek</item>
+        <item>İle</item>
+        <item>Vermek</item>
+        <item>Ama</item>
+        <item>Sonra</item>
+        <item>Kadar</item>
+        <item>Yer</item>
+        <item>En</item>
+        <item>İnsan</item>
+        <item>Değil</item>
+        <item>Her</item>
+        <item>İstemek</item>
+        <item>Yıl</item>
+        <item>Çıkmak</item>
+        <item>Görmek</item>
+        <item>Gün</item>
+        <item>Biz</item>
+        <item>Gitmek</item>
+        <item>İş</item>
+        <item>Şey</item>
+        <item>Ara</item>
+        <item>Ki</item>
+        <item>Bilmek</item>
+        <item>El</item>
+        <item>Zaman</item>
+        <item>Ya</item>
+        <item>Çocuk</item>
+        <item>İki</item>
+        <item>Bakmak</item>
+        <item>Çalışmak</item>
+        <item>İçinde</item>
+        <item>Büyük</item>
+        <item>Yok</item>
+        <item>Başlamak</item>
+        <item>Yol</item>
+        <item>Kalmak</item>
+        <item>Neden</item>
+        <item>Siz</item>
+        <item>Konu</item>
+        <item>Yapılmak</item>
+        <item>İyi</item>
+        <item>Kadın</item>
+        <item>Ev</item>
+        <item>İse</item>
+        <item>Diye</item>
+        <item>Bulunmak</item>
+        <item>Söylemek</item>
+        <item>Göz</item>
+        <item>Gerekmek</item>
+        <item>Dünya</item>
+        <item>Baş</item>
+        <item>Durum</item>
+        <item>Yan</item>
+        <item>Geçmek</item>
+        <item>Sen</item>
+        <item>Onlar</item>
+        <item>Yeni</item>
+        <item>Önce</item>
+        <item>Başka</item>
+        <item>Hal</item>
+        <item>Orta</item>
+        <item>Su</item>
+        <item>Girmek</item>
+        <item>Ülke</item>
+        <item>Yemek</item>
+        <item>Hiç</item>
+        <item>Bile</item>
+        <item>Nasıl</item>
+        <item>Bütün</item>
+        <item>Karşı</item>
+        <item>Bulmak</item>
+        <item>Böyle</item>
+        <item>Yaşamak</item>
+        <item>Düşünmek</item>
+        <item>Aynı</item>
+        <item>İç</item>
+        <item>Ancak</item>
+        <item>Kişi</item>
+        <item>Bunlar</item>
+        <item>Veya</item>
+        <item>İlk</item>
+        <item>Göre</item>
+        <item>Ön</item>
+        <item>Son</item>
+    </string-array>
+    <string-array name="group10">
+        <item>One</item>
+        <item>And</item>
+        <item>To be</item>
+        <item>This</item>
+        <item>For</item>
+        <item>He/she/it</item>
+        <item>I/me</item>
+        <item>To say</item>
+        <item>A lot</item>
+        <item>To do</item>
+        <item>What</item>
+        <item>Like, similar</item>
+        <item>More</item>
+        <item>To buy, take, get</item>
+        <item>There is/are</item>
+        <item>Self</item>
+        <item>To come</item>
+        <item>With</item>
+        <item>To give</item>
+        <item>But</item>
+        <item>Then, later, after</item>
+        <item>As well as</item>
+        <item>Place</item>
+        <item>The most</item>
+        <item>Human</item>
+        <item>Not</item>
+        <item>Every</item>
+        <item>To want</item>
+        <item>Year</item>
+        <item>To exit</item>
+        <item>To see</item>
+        <item>Day</item>
+        <item>We</item>
+        <item>To go</item>
+        <item>Work, job</item>
+        <item>Thing</item>
+        <item>Break, interval</item>
+        <item>That</item>
+        <item>To know</item>
+        <item>Hand</item>
+        <item>Time</item>
+        <item>Or, what if</item>
+        <item>Child</item>
+        <item>Two</item>
+        <item>To look</item>
+        <item>To work, study</item>
+        <item>Inside</item>
+        <item>Big</item>
+        <item>Absent</item>
+        <item>To start, begin</item>
+        <item>Way</item>
+        <item>To stay</item>
+        <item>Why</item>
+        <item>You</item>
+        <item>Topic</item>
+        <item>To be done</item>
+        <item>Good</item>
+        <item>Woman</item>
+        <item>House</item>
+        <item>If</item>
+        <item>In case</item>
+        <item>To be found, have been</item>
+        <item>To say</item>
+        <item>Eye</item>
+        <item>To require</item>
+        <item>World</item>
+        <item>Head, start</item>
+        <item>Situation</item>
+        <item>Side</item>
+        <item>To pass</item>
+        <item>You</item>
+        <item>They</item>
+        <item>New</item>
+        <item>Before</item>
+        <item>Different, other</item>
+        <item>Situation</item>
+        <item>Middle</item>
+        <item>Water</item>
+        <item>To enter</item>
+        <item>Country</item>
+        <item>To eat</item>
+        <item>Never</item>
+        <item>Even, as well</item>
+        <item>How</item>
+        <item>Whole</item>
+        <item>Against</item>
+        <item>To find</item>
+        <item>This way</item>
+        <item>To live</item>
+        <item>To think</item>
+        <item>The same</item>
+        <item>Inner</item>
+        <item>However</item>
+        <item>Person</item>
+        <item>These</item>
+        <item>Or</item>
+        <item>First</item>
+        <item>According to</item>
+        <item>Front</item>
+        <item>End</item>
+    </string-array>
+    <string-array name="group10ext">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Conjunction</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>there is not</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Plural</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Singular</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+</resources>
